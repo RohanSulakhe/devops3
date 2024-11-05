@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the repository
-                git 'https://github.com/devops3.git'
+                git branch: 'main', url: 'https://github.com/RohanSulakhe/devops3.git'
             }
         }
 
